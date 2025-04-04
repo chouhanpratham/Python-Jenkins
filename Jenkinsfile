@@ -47,7 +47,7 @@ pipeline {
                     sh 'zip -r deploy.zip ./*'
 
                     // Deploy application
-                    sh 'az webapp deploy --resource-group $RESOURCE_GROUP --name $APP_SERVICE_NAME --src-path ./deploy.zip --timeout 1800'
+                    sh 'az webapp deploy --resource-group $RESOURCE_GROUP --name $APP_SERVICE_NAME --src-path ./deploy.zip'
                 }
             }
         }
