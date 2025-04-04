@@ -5,7 +5,7 @@ pipeline {
         AZURE_CREDENTIALS_ID = 'azure-service-principal'
         RESOURCE_GROUP = 'rg-python'
         APP_SERVICE_NAME = 'python-webapp-service-pratham1'
-        PYTHON_VERSION = '3.11.7'
+        PYTHON_VERSION = '3.11'
         PYTHON_PATH = '/opt/anaconda3/bin/python3'
     }
     
